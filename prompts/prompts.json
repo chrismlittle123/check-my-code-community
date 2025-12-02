@@ -1,28 +1,12 @@
 {
   "schema_version": "1.0.0",
   "prompts": {
-    "python/prod": {
-      "description": "Production Python coding standards covering imports, type hints, error handling, and naming conventions",
-      "format": "md",
-      "versions": {
-        "1.0.0": { "file": "python/prod/1.0.0.md" },
-        "latest": "1.0.0"
-      }
-    },
     "python/3.12": {
       "description": "Python 3.12 specific coding standards with modern syntax, type statement, exception groups, and 3.12 features",
       "format": "md",
       "language_version": "3.12",
       "versions": {
         "1.0.0": { "file": "python/3.12/1.0.0.md" },
-        "latest": "1.0.0"
-      }
-    },
-    "typescript/strict": {
-      "description": "Strict TypeScript coding standards enforcing type safety, const usage, and modern ES module patterns",
-      "format": "md",
-      "versions": {
-        "1.0.0": { "file": "typescript/strict/1.0.0.md" },
         "latest": "1.0.0"
       }
     },
