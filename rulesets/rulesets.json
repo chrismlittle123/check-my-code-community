@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "rulesets": {
+    "python/ruff-default": {
+      "description": "Default Python linting with ruff - line length and basic error/pyflakes rules",
+      "tool": "ruff",
+      "format": "toml",
+      "versions": {
+        "1.0.0": { "file": "python/ruff-default/1.0.0.toml" },
+        "latest": "1.0.0"
+      }
+    },
+    "python/3.12": {
+      "description": "Python 3.12 ruff configuration - pyupgrade, bugbear, simplify, type-checking rules",
+      "tool": "ruff",
+      "format": "toml",
+      "target_version": "py312",
+      "versions": {
+        "1.0.0": { "file": "python/3.12/1.0.0.toml" },
+        "latest": "1.0.0"
+      }
+    },
+    "python/ruff-3.12": {
+      "description": "Ruff configuration optimized for Python 3.12 - includes pyupgrade, bugbear, simplify, and type-checking rules",
+      "tool": "ruff",
+      "format": "toml",
+      "target_version": "py312",
+      "versions": {
+        "1.0.0": { "file": "python/ruff-3.12/1.0.0.toml" },
+        "latest": "1.0.0"
+      }
+    },
+    "typescript/eslint-default": {
+      "description": "Default ESLint rules for TypeScript - no-var and prefer-const",
+      "tool": "eslint",
+      "format": "toml",
+      "versions": {
+        "1.0.0": { "file": "typescript/eslint-default/1.0.0.toml" },
+        "latest": "1.0.0"
+      }
+    },
+    "typescript/5.5": {
+      "description": "TypeScript 5.5 / Node.js 20 ESLint configuration - strict type safety and modern ES features",
+      "tool": "eslint",
+      "format": "toml",
+      "language_version": "5.5",
+      "runtime_version": "node20",
+      "versions": {
+        "1.0.0": { "file": "typescript/5.5/1.0.0.toml" },
+        "latest": "1.0.0"
+      }
+    },
+    "typescript/eslint-5.5": {
+      "description": "ESLint configuration for TypeScript 5.5 / Node.js 20 - strict type safety, consistent type imports, and modern ES features",
+      "tool": "eslint",
+      "format": "toml",
+      "language_version": "5.5",
+      "runtime_version": "node20",
+      "versions": {
+        "1.0.0": { "file": "typescript/eslint-5.5/1.0.0.toml" },
+        "latest": "1.0.0"
+      }
+    }
+  }
+}
