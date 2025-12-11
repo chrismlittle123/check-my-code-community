@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "configs": {
+    "claude-code": {
+      "description": "Claude Code settings.json - permissions and environment configuration for Claude Code CLI",
+      "tool": "claude-code",
+      "format": "json",
+      "versions": {
+        "1.0.0": { "file": "claude-code/1.0.0.json" },
+        "latest": "1.0.0"
+      }
+    }
+  }
+}
